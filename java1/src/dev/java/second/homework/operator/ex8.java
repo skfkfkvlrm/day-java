@@ -1,4 +1,4 @@
-package dev.java.second.homework;
+package dev.java.second.homework.operator;
 
 public class ex8 {
     public static void main(String[] args) {

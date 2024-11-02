@@ -1,4 +1,4 @@
-package dev.java.second.homework;
+package dev.java.second.homework.operator;
 
 import java.util.Scanner;
 
