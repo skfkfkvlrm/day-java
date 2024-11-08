@@ -1,4 +1,6 @@
 package dev.java.oop.homework.abs.ex10;
 
-public class Vehicle {
+// 최상위 추상 클래스
+public abstract class Vehicle {
+    public abstract void move();
 }
