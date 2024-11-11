@@ -2,6 +2,8 @@ package dev.java.oop.homework.open.ex9.sub2;
 
 public class Main {
     public static void main(String[] args) {
+
+
         String[] array = {"닭강정","떡볶이","감자탕"};
 
         try {

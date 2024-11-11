@@ -1,28 +1,34 @@
 package dev.java.oop.homework.open.ex5.sub2;
 
 class Vehicle {
-    void move() {
+    //접근제어자 추가.
+    public void move() {
         System.out.println("vehicle move");
     }
 }
 
 class Car extends Vehicle {
-    void move() {
+    @Override
+    public void move() {
         System.out.println("Car move");
     }
 }
 
 class Bicycle extends Vehicle {
-    void move() {
+    @Override
+    public void move() {
         System.out.println("Bicycle move");
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-        Car car = new Car();
-        Bicycle bicycle = new Bicycle();
+        Vehicle myVehicle;
+
+        Vehicle car = new Car();
         car.move();
+
+        Vehicle bicycle = new Bicycle();
         bicycle.move();
     }
 }

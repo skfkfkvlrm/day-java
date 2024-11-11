@@ -5,3 +5,22 @@ public class Airplane implements Flyable {
         System.out.println("fly with engine");
     }
 }
+
+class Bird implements Flyable {
+    public void fly() {
+        System.out.println("fly with wing");
+    }
+}
+
+interface Flyable {
+    public void fly();
+}
+
+class Main {
+    public static void main(String[] args) {
+        Bird bird = new Bird();
+        Airplane airplane = new Airplane();
+        bird.fly();
+        airplane.fly();
+    }
+}
